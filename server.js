@@ -38,6 +38,9 @@ app.use(express.json());
 // populateUsers();
 
 // API endpoints
+app.get('/', (req, res) => {
+    res.json('Server is running on port: ', port);
+})
 
 // Get all users
 app.get('/api/users', async (req, res) => {
