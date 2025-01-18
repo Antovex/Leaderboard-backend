@@ -2,10 +2,10 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const connectDB = require('./config/db');
+const connectDB = require('../config/db');
 
-const User = require('./models/user.model');
-const ClaimHistory = require('./models/claimHistory.model');
+const User = require('../models/user.model');
+const ClaimHistory = require('../models/claimHistory.model');
 
 const app = express();
 const port = process.env.PORT || 8000;

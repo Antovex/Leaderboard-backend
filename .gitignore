@@ -53,6 +53,7 @@ web_modules/
 
 # Optional eslint cache
 .eslintcache
+aws.*
 
 # Microbundle cache
 .rpt2_cache/
