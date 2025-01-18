@@ -39,7 +39,7 @@ app.use(express.json());
 
 // API endpoints
 app.get('/', (req, res) => {
-    res.json('Server is running on port: ', port);
+    res.status(200).json({ message: `Server is running on port: ${port}` });
 })
 
 // Get all users
