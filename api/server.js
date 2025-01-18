@@ -39,7 +39,7 @@ app.use(express.json());
 
 // API endpoints
 app.get('/', (req, res) => {
-    res.status(200).json({ message: `Server is running on port: ${port}` });
+    res.status(200).json({ message: `Backend for Leaderboard. For the source code: https://github.com/Antovex/Leaderboard-backend` });
 })
 
 // Get all users
